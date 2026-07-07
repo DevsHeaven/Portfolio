@@ -17,7 +17,8 @@ export const router = createBrowserRouter([
                 element:<About/>,
             },
         ]
-    },{
+    }],
+    {
         basename:"/TaskManager",
     }
-]);
+);
