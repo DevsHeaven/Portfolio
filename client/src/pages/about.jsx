@@ -1,4 +1,8 @@
 import "../App.css";
+import portfolio from "../assets/portfolio.png";
+import chatingapp from "../assets/chating-app.png";
+import taskmanager from "../assets/task-manager.png";
+
 import Char1 from "../assets/Char1.png";
 
 export default function About() {
@@ -87,7 +91,7 @@ export default function About() {
 
           <div className="project-card">
 
-            <div className="project-image"></div>
+            <div className="project-image"><img src={portfolio}/></div>
 
             <h3>Portfolio Website</h3>
 
@@ -97,32 +101,32 @@ export default function About() {
             </p>
 
             <div className="project-buttons">
-              <button>Live Demo</button>
-              <button>GitHub</button>
+              <button onClick={() => window.location.href = "https://github.com/DevsHeaven/Portfolio"}>Live Demo</button>
+              <button onClick={() => window.location.href = "https://devsheaven.github.io/Portfolio/"}>GitHub</button>
             </div>
 
           </div>
 
           <div className="project-card">
 
-            <div className="project-image"></div>
+            <div className="project-image"><img src={chatingapp}/></div>
 
-            <h3>real-time chat app</h3>
+            <h3>Chatting App</h3>
 
             <p>
-              TempChat
+              Simple chatting app using MERN stack which delete messages after 72 hour .
             </p>
 
             <div className="project-buttons">
-              <button>Live Demo</button>
-              <button>GitHub</button>
+              <button onClick={() => window.location.href = "https://chating-app-coral.vercel.app"}>Live Demo</button>
+              <button onClick={() => window.location.href = "https://github.com/DevsHeaven/ChatingApp"}>GitHub</button>
             </div>
 
           </div>
 
           <div className="project-card">
 
-            <div className="project-image"></div>
+            <div className="project-image"><img src={taskmanager}/></div>
 
             <h3>Task Manager</h3>
 
@@ -132,8 +136,8 @@ export default function About() {
             </p>
 
             <div className="project-buttons">
-              <button>Live Demo</button>
-              <button>GitHub</button>
+              <button onClick={() => window.location.href = "https://task-manager-opal-kappa.vercel.app/"}>Live Demo</button>
+              <button onClick={() => window.location.href = "https://github.com/DevsHeaven/TaskManager"}>GitHub</button>
             </div>
 
           </div>
@@ -148,11 +152,11 @@ export default function About() {
 
         <h2>Contact Me</h2>
 
-        <p>Email : your@email.com</p>
+        <p>Email : manishyadav22377@gmail.com</p>
 
-        <p>GitHub : github.com/yourprofile</p>
+        <p onClick={() => window.location.href = "https://github.com/DevsHeaven"}>GitHub : https://github.com/DevsHeaven</p>
 
-        <p>LinkedIn : linkedin.com/in/yourprofile</p>
+        <p onClick={() => window.location.href = "https://www.linkedin.com/in/manish-yadav-775bb3325?utm_source=share_via&utm_content=profile&utm_medium=member_android"}>LinkedIn : Manish Yadav</p>
 
       </section>
 

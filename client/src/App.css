@@ -369,7 +369,9 @@ body{
         #0ea5e9
     );
 }
-
+.project-image img{
+    width:120%
+}
 
 
 .project-card h3{

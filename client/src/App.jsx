@@ -19,6 +19,6 @@ export const router = createBrowserRouter([
         ]
     }],
     {
-        basename:"/TaskManager",
+        basename:"/Portfolio",
     }
 );
