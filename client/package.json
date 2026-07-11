@@ -2,16 +2,14 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://devsheaven.github.io/Portfolio/",
+  "homepage": "https://github.com/DevsHeaven/Portfolio.git",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
-  },
+    "predeploy":"npm run build"
+    },
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^19.2.6",
