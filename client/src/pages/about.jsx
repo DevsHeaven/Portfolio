@@ -156,7 +156,7 @@ export default function About() {
 
         <p onClick={() => window.location.href = "https://github.com/DevsHeaven"}>GitHub : https://github.com/DevsHeaven</p>
 
-        <p onClick={() => window.location.href = "https://www.linkedin.com/in/manish-yadav-775bb3325?utm_source=share_via&utm_content=profile&utm_medium=member_android"}>LinkedIn : Manish Yadav</p>
+        <p onClick={() => window.location.href = "www.linkedin.com/in/developer-manish-yadav"}>LinkedIn : Manish Yadav</p>
 
       </section>
 
