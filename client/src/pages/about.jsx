@@ -101,8 +101,8 @@ export default function About() {
             </p>
 
             <div className="project-buttons">
-              <button onClick={() => window.location.href = "https://github.com/DevsHeaven/Portfolio"}>Live Demo</button>
-              <button onClick={() => window.location.href = "https://devsheaven.github.io/Portfolio/"}>GitHub</button>
+              <button onClick={() => window.location.href = "https://portfolio-one-taupe-31.vercel.app/"}>Live Demo</button>
+              <button onClick={() => window.location.href = "https://github.com/DevsHeaven/Portfolio"}>GitHub</button>
             </div>
 
           </div>

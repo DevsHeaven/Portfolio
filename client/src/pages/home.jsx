@@ -24,11 +24,6 @@ export default function Home() {
           </p>
 
           <div className="hero-buttons">
-            <Link to="/projects">
-              <button className="primary-btn">
-                Explore Projects
-              </button>
-            </Link>
 
             <Link to="/about">
               <button className="secondary-btn">
