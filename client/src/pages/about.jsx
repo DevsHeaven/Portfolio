@@ -26,13 +26,13 @@ export default function About() {
           </p>
 
           <div className="hero-buttons">
-            <button className="primary-btn">
+            <a href="#projectSection" style={{textDecoration:'none'}} className="primary-btn">
               View Projects
-            </button>
+            </a>
 
-            <button className="secondary-btn">
+            <a href="#contactSection" style={{textDecoration:'none'}} className="secondary-btn">
               Contact Me
-            </button>
+            </a>
           </div>
         </div>
 
@@ -81,7 +81,7 @@ export default function About() {
 
       {/* Projects */}
 
-      <section>
+      <section id="projectSection">
 
         <h2 className="section-title">
           My Projects
@@ -148,15 +148,15 @@ export default function About() {
 
       {/* Contact */}
 
-      <section className="box contact">
+      <section id="contactSection" className="box contact">
 
         <h2>Contact Me</h2>
 
         <p>Email : manishyadav22377@gmail.com</p>
 
-        <p onClick={() => window.location.href = "https://github.com/DevsHeaven"}>GitHub : https://github.com/DevsHeaven</p>
+        <p style={{textDecoration:"underline",color:'skyblue'}} onClick={() => window.location.href = "https://github.com/DevsHeaven"}>GitHub : https://github.com/DevsHeaven</p>
 
-        <p onClick={() => window.location.href = "www.linkedin.com/in/developer-manish-yadav"}>LinkedIn : Manish Yadav</p>
+        <p style={{textDecoration:"underline",color:'skyblue'}} onClick={() => window.location.href = "https://www.linkedin.com/in/developer-manish-yadav"}>LinkedIn : Manish Yadav</p>
 
       </section>
 
