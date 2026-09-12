@@ -1,21 +1,25 @@
-import {createBrowserRouter} from 'react-router-dom';
-import Home from './pages/home.jsx';
-import About from './pages/about.jsx';
-import Layout from './pages/layout.jsx';
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero.jsx";
+import About from "./components/About.jsx";
+import Skills from "./components/Skills.jsx";
+import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 
+function App() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  );
+}
 
-export const router = createBrowserRouter([
-    {
-        path:'/',
-        element:<Layout/>,
-        children:[
-            {
-                index:true,
-                element:<Home/>
-            },{
-                path:'about',
-                element:<About/>,
-            },
-        ]
-    }],
-);
+export default App;
