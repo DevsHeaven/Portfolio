@@ -11,7 +11,7 @@ const projects = [
     image: chattingAppImg,
     tags: ["React", "Node.js", "Socket.io", "MongoDB"],
     github: "https://github.com/DevsHeaven",
-    live: "",
+    live: "https://chating-app-coral.vercel.app/"
   },
   {
     title: "Tasklet — Task Manager",
@@ -20,7 +20,7 @@ const projects = [
     image: taskManagerImg,
     tags: ["React", "Express", "MongoDB", "JWT"],
     github: "https://github.com/DevsHeaven",
-    live: "",
+    live: "https://task-manager-opal-kappa.vercel.app/"
   },
   {
     title: "This Portfolio",
@@ -29,7 +29,7 @@ const projects = [
     image: portfolioImg,
     tags: ["React", "Vite", "CSS"],
     github: "https://github.com/DevsHeaven",
-    live: "",
+    live: "https://portfolio-one-taupe-31.vercel.app/"
   },
 ];
 
