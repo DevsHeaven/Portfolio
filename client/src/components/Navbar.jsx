@@ -21,7 +21,7 @@ const Navbar = () => {
     <header className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
       <div className="navbar-inner">
         <a href="#top" className="logo">
-          MY<span className="logo-dot">.</span>
+          M.Y.<span className="logo-dot">.</span>
         </a>
 
         <nav className={`nav-links ${menuOpen ? "nav-links-open" : ""}`}>
